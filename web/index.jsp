@@ -22,11 +22,11 @@
             if (tree.counter < 5 && request.getParameter("node") == null) {
                 tree.randomize();
             }
+            
         %>
 
         <br/>
 
-        <!--<a href="<c:url value="/jsp/index.htm"/>">TEST</a>-->
         <table>
             <tr>
                 <td>
